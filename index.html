@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced CSS - Assignment 1</title>
+    <style>
+.Google_1{
+
+background: #ffffff;
+color: #008000;
+margin: 0;
+
+}
+
+.Google_2{
+
+background: #ffffff;
+color: #008000;
+margin: 0;
+
+}
+
+.ITA{
+
+background: #ffffff;
+color: 	#FF0000;
+margin: 0;
+
+}
+
+.P4{
+
+background: #ffffff;
+color: 	#FF0000;
+margin: 0;
+
+}
+
+.P5{
+
+background: #ffffff;
+color: 		#0000FF;
+margin: 0;
+
+}
+
+.P6{
+
+background: #ffffff;
+color: 	#FF0000;
+margin: 0;
+
+}
+
+.P7{
+
+background: #ffffff;
+color: 		#0000FF;
+margin: 0;
+
+}
+
+.P8{
+
+background: #ffffff;
+color: 	#FF0000;
+margin: 0;
+
+}
+
+
+
+
+p:after{
+	content:attr(data-text);
+	color:rgb(255, 255, 0);
+	transform:translateX(-100%);
+	position:absolute;
+}
+
+.P10:hover{
+    font-style: italic
+
+}
+    </style>
+</head>
+
+<body>
+    <h1>Main Heading</h1>
+    <p>Paragraph 1</p>
+    <a href="https://www.google.com/" class = "Google_1">Google</a>
+    <a href="https://www.google.com/doodles" class = "Google_2">Google Doodles</a>
+    <a href="https://www.link-group.eu/" class = "ITA" target="_blank">Goto Link Group</a>
+    <div id="first-div">
+        <h2>Subheading</h2>
+        <p data-text="NEW">Paragraph 2 NEW</p>
+        <p data-text="NEW">Paragraph 3 NEW</p>
+        <div id="second-div">
+            <h3>Sub subheading</h3>
+            <p class = "P4">Paragraph 4</p>
+            <p class = "P5">Paragraph 5</p>
+            <p class = "P6">Paragraph 6</p>
+            <p class = "P7">Paragraph 7</p>
+            <p class = "P8">Paragraph 8</p>
+        </div>
+    </div>
+    <p>Paragraph 9</p>
+    <p class="P10">Paragraph 10</p>
+</body>
+
+</html>
